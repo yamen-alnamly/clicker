@@ -22,14 +22,14 @@ button:active
 {
     top: 2%;
     right: 1%;
-    width: 19rem;
-    height:19rem;
+    width: 21rem;
+    height:21rem;
 }
 
 button
 {
-    width: 18rem;
-    height: 18rem;
+    width: 20rem;
+    height: 20rem;
     background-color: white;
    position: absolute;
     top: 3%;

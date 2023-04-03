@@ -1,4 +1,4 @@
-let button = document.querySelector('#ball').innerHTML;
+let button = 1;
  
 function add(){
    document.querySelector('#ball').innerHTML = button++
