@@ -40,3 +40,17 @@ button
    font-size: 34px;
    color: black;
 }
+  @media only screen and (max-width: 700px) 
+  {
+    button
+    {
+      width: 17rem;
+      height: 17rem;
+    }
+    button:active
+    {
+        width: 18rem;
+        height: 18rem;
+    }
+    
+  }
