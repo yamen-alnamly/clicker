@@ -19,6 +19,7 @@ body
     width: 19rem;
     height: 19rem;
 }
+
 button:active
 {
     top: 2%;
@@ -29,9 +30,12 @@ button:active
 
 button
 {
+    outline: none;
     width: 20rem;
     height: 20rem;
-    background-color: white;
+    color: darkslateblue;
+    -webkit-text-stroke: 1px rgba(41, 41, 41, 0.226);
+    background-color: #FFF6C3;
    position: absolute;
     top: 3%;
     right: 3%;
@@ -39,12 +43,13 @@ button
    border: none;
    transition: 0.2s;
    font-size: 34px;
-   color: black;
 }
   @media only screen and (max-width: 700px) 
   {
     button
     {
+      margin: 0 5px;
+      font-size: 40px;
       width: 17rem;
       height: 17rem;
     }
